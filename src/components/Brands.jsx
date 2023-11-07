@@ -16,25 +16,25 @@ import volks from '../assets/Volkswagen.avif';
 const Brands = () => {
   return (
     <div className='brand-container'>
-    <div class="brand-section">
-        <div class="brand-header">
+    <div className="brand-section">
+        <div className="brand-header">
             <h1>Shop your favorite brand</h1>
         </div>
-        <div class="brand-grid">
+        <div className="brand-grid">
 
-            <div class="brand-card">
+            <div className="brand-card">
                 <img src={audi} alt=""/>
                 Audi
             </div>
-            <div class="brand-card">
+            <div className="brand-card">
                 <img src={bmw} alt=""/>
                 BMW
             </div>
-            <div class="brand-card">
+            <div className="brand-card">
                 <img src={chev} alt=""/>
                 Chevrolet
             </div>
-            <div class="brand-card">
+            <div className="brand-card">
                 <img src={ford} alt=""/>
                 Ford
             </div>
@@ -42,38 +42,38 @@ const Brands = () => {
                 <img src={honda} alt=""/>
                 Honda
             </div>
-            <div class="brand-card" id="ferrari-card">
+            <div className="brand-card" id="ferrari-card">
                 <img src={hyundai} alt=""/>
                 Hyundai
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={jaguar} alt="" />
                 Jaguar
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={kia} alt="" />
                 Kia
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={benz} alt="" />
                 Mercedes Benz
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={porsche} alt="" />
                 Porsche
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={toyota} alt="" />
                 Toyota
             </div>
-            <div class="brand-card" id="porsche-card">
+            <div className="brand-card" id="porsche-card">
                 <img src={volks} alt="" />
                 Volkswagen
             </div>
         </div>
-        <div class="see-more" onclick="showMoreBrands()">
+        {/* <div class="see-more" onclick="showMoreBrands()">
             See more <i className="fas fa-caret-down"></i>
-        </div>
+        </div> */}
     </div>
 
 </div>

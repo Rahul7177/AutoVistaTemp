@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 import '../stylesheets/navbar.css';
+import { Link} from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
 <div className='nav-container'>
     <nav className="navbar">
         <div className="navbar-logo">
-            <img src={logo} alt="Logo"/>
+            <Link to='/'><img src={logo} alt="Logo"/></Link>
         </div>
         <div className="navbar-links">
             <div className="navbar-link-dropdown">
@@ -53,10 +54,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-search">
             <input type="text" placeholder="Search"/>
-            <i class="fa-solid fa-magnifying-glass search_icon"></i>
+            <i className="fa-solid fa-magnifying-glass search_icon"></i>
         </div>
         <div className="navbar-login">
-            <a href="/"><i className="fas fa-user"></i>Log In</a>
+            <Link to="/login"><i className="fas fa-user"></i>Log In</Link>
         </div>
     </nav>
 </div>
